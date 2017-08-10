@@ -87,7 +87,7 @@ a {
 #tags {
   width: 165px;
   height: 100%;
-  background: #474d57;
+  background: #66ccff;
   border-right: 1px solid #3c4149;
   box-shadow: inset -15px 0 15px -15px #222;
   float: left;
@@ -352,7 +352,7 @@ a {
   -moz-transition: border-color .35s;
   -ms-transition: border-color .35s;
   -o-transition: border-color .35s;
-  transition: border-color .35s; 
+  transition: border-color .35s;
   display: none;
 }
 
