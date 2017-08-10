@@ -22,7 +22,7 @@ title: 唐星宇的博客                             #自定义常量
 
 # avatar头像及Favicon
 avatar: https://avatars2.githubusercontent.com/u/28102324?v=4&u=711c9ef521bd5bb3be37e6936f0b6fdc007a1d68&s=400
-#favicon: http://7u2ho6.com1.z0.glb.clouddn.com/site-favicon.ico
+#favicon:
 
 locals:                                     #自定义常量
   tags: 标签
@@ -44,4 +44,4 @@ ba:
 
 # disqus 设置
 disqus:
-  shortname: coolnameismy
+  shortname: lavanille
