@@ -87,7 +87,7 @@ a {
 #tags {
   width: 165px;
   height: 100%;
-  background: #6699ff;
+  background: #3ea3e3;
   border-right: 1px solid #FFF0F5;
   box-shadow: inset -15px 0 15px -15px #FFF0F5;
   float: left;
@@ -127,14 +127,14 @@ a {
   margin: 0;
   padding: 0;
   font-size: 17px;
-  border-top: 1px solid #e7e9ee;
-  border-bottom: 1px solid #e7e9ee;
+  border-top: 1px solid #2ee5ff;
+  border-bottom: 1px solid #2ee5ff;
   list-style: none; }
 
 .tags__li {
   padding: 12px 35px 9px;
-  border-top: 1px solid #525965;
-  border-bottom: 1px solid #3c4149;
+  border-top: 1px solid #2e9fff;
+  border-bottom: 1px solid #2e9fff;
   cursor: pointer; }
   .tags__li.active {
     margin-right: -1px;
