@@ -3,7 +3,7 @@ title: 刘彦玮的技术博客
 email: coolnameismy@hotmail.com
 description: > #刘彦玮的技术博客
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://tangxingyu.lavanille.com" # the base hostname & protocol for your site
+url: "http://Lavanille777.github.io" # the base hostname & protocol for your site
 # url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
 twitter_username: coolnameismy@hotmail.com
 github_username:  coolnameismy
@@ -15,7 +15,7 @@ paginate: 10                                #分页时每页博文数量
 author:                                     #自定义常亮
   name: 刘彦玮
   email: coolnameismy@hotmail.com
-  link: http://tangxingyu.lavanille.com/
+  link: http://Lavanille777.github.io/
   weibo: http://weibo.com/1897719834
   github: http://github.com/Lavanille777
 title: 刘彦玮的技术博客                             #自定义常量
