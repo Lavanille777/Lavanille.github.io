@@ -87,9 +87,9 @@ a {
 #tags {
   width: 165px;
   height: 100%;
-  background: #66ccff;
+  background: #6699ff;
   border-right: 1px solid #FFF0F5;
-  box-shadow: inset -15px 0 15px -15px #E6E6FA;
+  box-shadow: inset -15px 0 15px -15px #FFF0F5;
   float: left;
   position: relative;
   -webkit-user-select: none;
@@ -127,8 +127,8 @@ a {
   margin: 0;
   padding: 0;
   font-size: 17px;
-  border-top: 1px solid #3c4149;
-  border-bottom: 1px solid #525965;
+  border-top: 1px solid #e7e9ee;
+  border-bottom: 1px solid #e7e9ee;
   list-style: none; }
 
 .tags__li {
@@ -203,7 +203,7 @@ a {
 
 
 .tags-btn {
-  color: #a6a6a7;
+  color: #f7f9fa;
   -webkit-transition: color .3s, background .3s;
   -moz-transition: color .3s, background .3s;
   -ms-transition: color .3s, background .3s;
