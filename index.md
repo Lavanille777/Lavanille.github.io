@@ -3,8 +3,26 @@ layout: post
 title: Welcome
 ---
 
-## 欢迎来到我的博客
-这个站点是从github的大牛[刘彦玮](https://github.com/coolnameismy)fork而来
+## 关于我
 
++ 现居上海
++ iOS实习生
++ 男
 
-建站方法详见[他的博客](http://liuyanwei.jumppo.com)
+## 兴趣爱好
+
++ 动漫
++ 游戏
++ 电影
++ 自然
++ 哲学
+
+## 个性
+
++ 理性主导
++ 尽可能的保持乐观，采取一切可能的积极行动
+
+## 目前的人生目标
+
++ 进入哔哩哔哩工作
+
