@@ -51,6 +51,31 @@ int* generateRandomArray(int n, int L, int R){
 + 首先是time()函数，调用它会返回 自1970年1月1日00:00:00至系统现在这一刻所经过的秒数 ，返回值类型是time_t，是一个正整数，time()有两种调用方式，第一种是将一个变量地址填入括号，这样这个变量就会获得返回值，另一种方法是填入NULL，那么可以用a = time(NULL)的方式获得返回值。
 + srand()与rand()函数，这两个函数需要配合使用，调用前者需要传入一个参数，称为“种子”，这个函数会根据“种子”生成伪随机数序列，调用rand()则会从srand()生成的伪随机数序列中取出一个伪随机数，换言之，如果srand填入的种子不变，那么随机数每次都会按照固定的序列生成，因此要达到真正的随机，必须要使srand的种子是随机的，那么刚好time(NULL)返回的是一个无时无刻不在变化的数字，使得srand的种子不断变化。
 
+### 近乎有序数组生成器
+
+近乎有序的数组是随机数组中的一种特殊情况，也是必须要考虑的。
+
+编写思路很简单，首先初始化一个0到n的数组，然后随机挑几对元素进行交换就得到了一个近乎有序的数组。
+
+```
+int* generateNearlyOrderedArray(int n, int swapTimes){
+        int *arr = new int[n];
+        for (int i = 0; i < n; i ++) {
+            arr[i] = n;
+        }
+
+        srand(time(NULL));
+        //随机挑选两个点，交换若干次
+        for (int i = 0; i < swapTimes; ++i) {
+            int x = rand() % n;
+            int y = rand() % n;
+            swap(arr[x], arr[y]);
+        }
+
+        return arr;
+    }
+```
+
 ### 数组有序判断
 
 在排过序之后还需检查数组是否有序以证明排序是否成功，比较简单，就不做说明了。
@@ -104,6 +129,19 @@ bool isSorted(int arr[], int n){
         for (int i = 0; i < n; i ++) {
             cout << arr[i] << " " ;
         }
+    }
+```
+
+### 数组拷贝
+
+当我们需要比较多个排序算法的性能时，就需要多个相同的随机数组，因此需要数组拷贝方法
+
+```
+    //数组拷贝
+    int* copyIntArray(int a[], int n){
+        int* arr = new int[n];
+        copy(a, a+n, arr);
+        return arr;
     }
 ```
 
