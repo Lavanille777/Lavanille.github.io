@@ -90,7 +90,7 @@ void insertionSort2(int arr[], int n){
 }
 ```
 
-##测试结果
+## 测试结果
 
 ```
 selection sort : 0.114551s
@@ -102,7 +102,7 @@ insertion2 sort : 0.000044s
 
 这一点在对近乎有序的数组的排序中能体现出更大的优势。
 
-##对近乎有序的数组排序
+## 对近乎有序的数组排序
 
 ```
 int main() {
