@@ -75,7 +75,7 @@ void insertionSort2(int arr[], int n){
 
     for (int i = 1; i < n; i ++) {
         //使用临时变量保存当前的元素
-        int t = i;
+        int t = arr[i];
         //j需要在循环后使用
         int j;
         //注意是和保存的元素比较，而不是和当前元素比较了
@@ -93,9 +93,9 @@ void insertionSort2(int arr[], int n){
 ## 测试结果
 
 ```
-selection sort : 0.114551s
-insertion sort : 0.151702s
-insertion2 sort : 0.000044s
+selection sort : 0.112045s
+insertion sort : 0.151370s
+insertion sort2 : 0.075784s
 ```
 
 可以看到优化后的插入排序速度已经有了很大的提升，相比选择排序，它更快的原因是在内层循环中可以提前结束扫描。
@@ -120,9 +120,9 @@ int main() {
 输出
 
 ```
-selection sort : 0.109749s
-insertion sort : 0.000033s
-insertion2 sort : 0.000067s
+selection sort : 0.111469s
+insertion sort : 0.000058s
+insertion sort2 : 0.000051s
 ```
 
 可以看出在近乎有序的情况下插入排序的速度远远快于选择排序，事实上在完全有序的情况下插入排序的时间复杂度是O(1)。

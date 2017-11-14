@@ -61,7 +61,7 @@ int* generateRandomArray(int n, int L, int R){
 int* generateNearlyOrderedArray(int n, int swapTimes){
         int *arr = new int[n];
         for (int i = 0; i < n; i ++) {
-            arr[i] = n;
+            arr[i] = i;
         }
 
         srand(time(NULL));
