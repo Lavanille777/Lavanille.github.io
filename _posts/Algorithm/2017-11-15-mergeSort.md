@@ -214,10 +214,12 @@ if (arr[mid] > arr[mid+1]){
 //        }
         //当待排子数组长度小于16时，改用插入排序
         if (r - l <= 15) {
-            insertionSort2(arr, r-l);
+            insertionSort2(arr, l, r);
             return;
         }
 ```
+
+这里额外写了一个对具体范围进行的插入排序。
 
 结合上一步优化，理论上可以有效提高归并排序的效率。
 
