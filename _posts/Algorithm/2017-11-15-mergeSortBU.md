@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 归并排序法其二
+title: 归并排序法（自下而上）
 category: 算法
 ---
 
