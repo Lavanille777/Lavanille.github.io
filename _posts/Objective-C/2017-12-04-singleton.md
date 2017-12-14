@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 单例模式
-category: iOS开发
+category: Objective-C
 --- 
 
 > 所谓模式（pattern）就是编写代码时的套路，使用模式可以在各个方面改良你的的程序。

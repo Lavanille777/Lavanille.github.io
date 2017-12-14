@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 在对象内部尽量直接访问实例变量
-category: iOS开发
+category: Objective-C
 --- 
 
 我们在对象的内部访问成员时通常有两种方法：

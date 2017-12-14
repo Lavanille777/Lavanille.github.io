@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 初识GCD其一
-category: iOS开发
+category: Objective-C
 ---
 > GCD 全称 Grand Central Dispatch，目前似乎没有特别好的中文翻译，这个名字我个人认为取自纽约中央火车站（Grand Central Terminal），如果把线程比作一列一列的火车，那么GCD是个非常合适的名称。不管在什么语言中，多线程编程似乎都是进阶的难点，对于我这个还谈不上初级的iOS开发选手，也只能在这里简单归纳一下GCD的用法了。
 

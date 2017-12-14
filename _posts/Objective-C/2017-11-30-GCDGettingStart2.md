@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 初识GCD其二
-category: iOS开发
+category: Objective-C
 ---
 
 
